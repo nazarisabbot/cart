@@ -3109,7 +3109,6 @@ const listIPv4 = [
 ];
 
 function countUniqueIp(arr) {
-  const uniq = Object.entries(arr);
   const resUniq = new Map();
 
   for (const value of arr) {
