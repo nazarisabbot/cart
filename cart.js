@@ -32,7 +32,7 @@ const cart = {
   },
 };
 
-cart.add("MacBook Pro", 100, 2);
-cart.add("SM Xiaomi 13 pro", 200, 5);
-cart.add("Lenova 14 Pro", 350, 10);
+cart.add('MacBook Pro', 100, 2);
+cart.add('SM Xiaomi 13 pro', 200, 5);
+cart.add('Lenova 14 Pro', 350, 10);
 cart.print();
