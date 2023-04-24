@@ -24446,7 +24446,7 @@ const listIPv4 = [
   '10.0.32.20',
 ];
 
-export const countUniqueIp = (arr) => {
+const countUniqueIp = (arr) => {
   const resUniq = new Set(arr);
   return resUniq.size;
 };
